@@ -13,4 +13,11 @@ p { color: blue ; text-align: center;
 }
 
 -->
+a{
+        text-decoration: none;
+        background-color: yellow;
+        color: red;
+        border: 1px solid blue
+        padding:3px 5px;
+    }
 <body style= " background-color : #007fff;"
