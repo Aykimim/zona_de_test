@@ -51,14 +51,13 @@
 
 <h3><form action="/pagina-processa-dados-do-form" method="post">
   <div>
-        <label for="código do produto">código do produto:</label>
+        <label for="codigodoproduto">código do produto:</label>
         <input type="cod" id="codpro" />
     </div>
 	  <div>
-        <label for="código do produto no cliente">código do produto no cliente:</label>
+        <label for="codigodoprodutonocliente">código do produto no cliente:</label>
         <input type="text" id="apelido" />
     </div>
-	 código do produto no cliente
   <div>
         <label for="name">Nome:</label>
         <input type="text" id="name" />
@@ -68,10 +67,11 @@
         <input type="text" id="descricao" />
     </div>
 	<div>
-    method="POST" enctype="multipart/form-data"> 
+   <form method="POST" enctype="multipart/form-data"> 
    <label for="conteudo">Enviar foto:</label>
    <input type="file" name="pic" accept="image/*">    
-     <button type="submit">Enviar imagem</button>	
+     <button type="submit">Enviar imagem</button>
+     </form>
 		 </div>
 	<div>
     <label Valor: </label>
@@ -79,7 +79,7 @@
 	</div>
 	
  <div class="button">
-        <button type="submit">Enviar sua mensagem</button>
+        <button type="submit">Pronto</button>
  </div>
 </form></h3>
 
